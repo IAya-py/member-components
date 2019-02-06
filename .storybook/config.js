@@ -18,7 +18,10 @@ function loadStories() {
   require('../src/components/Headers.stories.js');
   require('../src/components/SearchBox.stories.js');
   require('../src/components/Ratings.stories.js');
+  require('../src/components/PhoneNumber.stories.js');
   require('../src/components/Cards.stories.js');
+  require('../src/components/Sidebars.stories.js');
+  require('../src/components/Dropdowns.stories.js');
 
   // loading stories dynamically
   // req.keys().forEach(filename => req(filename));

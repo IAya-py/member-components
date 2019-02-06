@@ -47,10 +47,6 @@ function SearchBox() {
         .searchbox-with-location .ui.input {
             float: left;
         }
-
-        .searchbox-with-location .ui.input>input::placeholder {
-            color: #666;
-        }
       `}</style>
     </div>
   )

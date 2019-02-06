@@ -11,6 +11,25 @@
   float: right;
 }
 
+.border-0 {
+  border: 0 !important;
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+.pt-0 {
+    padding-top: 0 !important;
+}
+.py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 /* buttons */
 .ui.blue.button, 
 .ui.blue.buttons .button {
@@ -27,6 +46,11 @@
 }
 .ui.button>.icon:not(.button) {
   opacity: 1;
+}
+
+/* input - search */
+.ui.input>input::placeholder {
+    color: #666;
 }
 
 /* icons */

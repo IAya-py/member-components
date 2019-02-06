@@ -24,7 +24,7 @@ function Ratings() {
         }
 
         .ui.star.rating .icon {
-            width: 16px;
+            /*width: 16px;*/
             font-family: outline-icons;
             color: #ccc;
             text-align: right;

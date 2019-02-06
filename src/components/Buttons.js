@@ -19,15 +19,15 @@ function Buttons() {
         .ui.basic.button, 
         .ui.basic.buttons .button {
           border-radius: 2px;
-            font-weight: bold;
-            width: 100%;
+          font-weight: bold;
+          width: 100%;
         }
         .ui.basic.blue.button, 
         .ui.basic.blue.buttons .button,
         .ui.basic.blue.button:hover, 
         .ui.basic.blue.buttons .button:hover {
-            box-shadow: 0 0 0 2px #2979FF inset!important;
-            color: #2979FF!important;
+          box-shadow: 0 0 0 2px #2979FF inset!important;
+          color: #2979FF!important;
         }
       `}</style>
     </React.Fragment>
