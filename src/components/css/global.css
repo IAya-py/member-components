@@ -1,0 +1,56 @@
+/* global css */
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+/* buttons */
+.ui.blue.button, 
+.ui.blue.buttons .button {
+  font-weight: bold;
+}
+.ui.input.focus>input, .ui.input>input:focus {
+  border-color: #2979FF;
+}
+.ui.blue.button, 
+.ui.blue.buttons .button,
+.ui.blue.button:hover, 
+.ui.blue.buttons .button:hover {
+  background-color: #2979FF;
+}
+.ui.button>.icon:not(.button) {
+  opacity: 1;
+}
+
+/* icons */
+i.blue.icon {
+  color: #2979FF !important;
+}
+
+i.inverted.bordered.blue.icon, 
+i.inverted.circular.blue.icon {
+    background-color: #0076FF !important;
+}
+
+/* cards */
+.ui.cards>.card {
+    width: 100%;
+}
+
+.ui.card>:only-child, 
+.ui.cards>.card>:only-child, 
+.ui.card, .ui.cards>.card {
+    border-radius: 0 !important;
+    box-shadow: 0 0px 1px 0 #d4d4d5;
+}
+
+.ui.card .content {
+    position: relative;
+}
