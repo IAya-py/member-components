@@ -1,20 +1,12 @@
 import React, { useState } from 'react'
 import { Input, Segment } from 'semantic-ui-react'
 
-// function myFunction() {
-//   var x = document.getElementById("myInput");
-//   if (x.type === "password") {
-//     x.type = "text";
-//   } else {
-//     x.type = "password";
-//   }
-// }
-
 function Inputs() {
 	const [showPassword, toggleShowPassword] = useState(false);
 
   return (
   	<React.Fragment>
+  		{/*icon - lock*/}
 	  	<Input 
 	  		icon='lock' 
 	  		iconPosition='right' 

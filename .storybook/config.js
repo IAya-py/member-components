@@ -24,6 +24,8 @@ function loadStories() {
   require('../src/components/Dropdowns.stories.js');
   require('../src/components/Form.stories.js');
   require('../src/components/Inputs.stories.js');
+  require('../src/components/Lists.stories.js');
+  require('../src/components/Checkboxes.stories.js');
 
   // loading stories dynamically
   // req.keys().forEach(filename => req(filename));

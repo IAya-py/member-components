@@ -55,7 +55,9 @@
 }
 
 /* input */
-.ui.input>input {
+.ui.input>input,
+.ui.checkbox .box:before, .ui.checkbox label:before,
+.ui.basic.label {
   border-radius: 2px;
 }
 
@@ -88,4 +90,12 @@ i.inverted.circular.blue.icon {
 
 .ui.card .content {
     position: relative;
+}
+
+/* checkbox - border color */
+.ui.checkbox .box:hover::before, .ui.checkbox label:hover::before,
+.ui.checkbox input:focus~.box:before, 
+.ui.checkbox input:focus~label:before,
+.ui.checkbox input:checked:focus~.box:before, .ui.checkbox input:checked:focus~label:before, .ui.checkbox input:not([type=radio]):indeterminate:focus~.box:before, .ui.checkbox input:not([type=radio]):indeterminate:focus~label:before {
+  border-color: rgba(34,36,38,.35);
 }
