@@ -9,12 +9,24 @@ const Dropdowns = () => (
     <Menu.Menu position='right'>
       <Dropdown text='' icon='user circle outline' position='right'>
         <Dropdown.Menu direction='left'>
-          <Dropdown.Item text='New' />
+          <Dropdown.Item text='Profile' />
           <Dropdown.Divider />
-          <Dropdown.Item text='Download As...' />
+          <Dropdown.Item text='Account Settings' />
+          <Dropdown.Divider />
+          <Dropdown.Item text='Bank KYC Information' />
+          <Dropdown.Divider />
+          <Dropdown.Item text='My Transactions' />
+          <Dropdown.Divider />
+          <Dropdown.Item text='Logout' />
         </Dropdown.Menu>
       </Dropdown>
     </Menu.Menu>
+    <style jsx>{`
+      .right.menu i {
+          margin-top: 10px;
+          margin-right: 10px;
+      }
+    `}</style>
   </Menu>
 )
 

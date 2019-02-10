@@ -22,6 +22,8 @@ function loadStories() {
   require('../src/components/Cards.stories.js');
   require('../src/components/Sidebars.stories.js');
   require('../src/components/Dropdowns.stories.js');
+  require('../src/components/Form.stories.js');
+  require('../src/components/Inputs.stories.js');
 
   // loading stories dynamically
   // req.keys().forEach(filename => req(filename));

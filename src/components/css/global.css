@@ -35,7 +35,13 @@
 .ui.blue.buttons .button {
   font-weight: bold;
 }
-.ui.input.focus>input, .ui.input>input:focus {
+.ui.input.focus>input, 
+.ui.input>input:focus,
+.ui.selection.dropdown:focus,
+.ui.selection.active.dropdown,
+.ui.selection.active.dropdown .menu,
+.ui.selection.active.dropdown:hover,
+.ui.selection.active.dropdown:hover .menu {
   border-color: #2979FF;
 }
 .ui.blue.button, 
@@ -46,6 +52,11 @@
 }
 .ui.button>.icon:not(.button) {
   opacity: 1;
+}
+
+/* input */
+.ui.input>input {
+  border-radius: 2px;
 }
 
 /* input - search */
