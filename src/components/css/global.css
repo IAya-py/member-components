@@ -126,3 +126,7 @@ i.inverted.circular.blue.icon {
 .notificationTime {
   color: #bbbbbb;
 }
+
+.ratingModalButton {
+  width: 100%;
+}

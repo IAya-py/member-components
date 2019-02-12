@@ -29,6 +29,7 @@ function loadStories() {
   require("../src/components/Lists.stories.js");
   require("../src/components/Checkboxes.stories.js");
   require("../src/components/Notification.stories.js");
+  require("../src/components/RatingModal.stories.js");
 
   // loading stories dynamically
   // req.keys().forEach(filename => req(filename));
